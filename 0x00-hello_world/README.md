@@ -6,3 +6,4 @@
 03. Name<br>
 04. Hello, puts<br>
 05. Hello, printf<br>
+06. Size is not grandeur, and territory does not make a nation<br>
