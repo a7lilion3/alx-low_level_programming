@@ -7,3 +7,7 @@
 04. Hello, puts<br>
 05. Hello, printf<br>
 06. Size is not grandeur, and territory does not make a nation<br>
+
+<h2>Advanced</h2>
+
+07. Intel
