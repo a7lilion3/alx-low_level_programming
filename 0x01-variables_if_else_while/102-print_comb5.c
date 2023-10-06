@@ -1,6 +1,24 @@
 #include <stdio.h>
 
 /**
+ * presult - print result
+ * @i: int
+ * @j: int
+ * @k: int
+ * @l: int
+ * Return: void
+ */
+void presult(int i, int j, int k, int l)
+{
+		/* '9' * 1000 + '8' * 100 + '9' * 10 + '9' = 63227 */
+		if ((i * 1000 + j * 100 + k * 10 + l) != 63227)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+}
+
+/**
  * main - Entry point
  * Return: 0
  */
@@ -24,12 +42,7 @@ int main(void)
 						putchar(k);
 						putchar(l);
 
-						/* '9'* 3 + '8' = 227 */
-						if ((i + j + k + l) != 227)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+						presult(i, j, k, l);
 					}
 				}
 			}
