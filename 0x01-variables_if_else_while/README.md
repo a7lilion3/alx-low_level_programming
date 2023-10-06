@@ -8,3 +8,4 @@
 05. Numbers<br>
 06. Numberz<br>
 07. Smile in the mirror<br>
+08. Hexadecimal<br>
