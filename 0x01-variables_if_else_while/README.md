@@ -10,3 +10,7 @@
 07. Smile in the mirror<br>
 08. Hexadecimal<br>
 09. Patience, persistence and perspiration make an unbeatable combination for success<br>
+
+<h2>Advanced</h2>
+
+10. Inventing is a combination of brains and materials. The more brains you use, the less material you need<br>
