@@ -9,3 +9,4 @@
 06. Numberz<br>
 07. Smile in the mirror<br>
 08. Hexadecimal<br>
+09. Patience, persistence and perspiration make an unbeatable combination for success<br>
