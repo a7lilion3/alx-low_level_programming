@@ -7,7 +7,11 @@
  */
 void print_number(int n)
 {
-	if (n < 10)
+	if (n == 0)
+	{
+		_putchar('0');
+	}
+	else if (n < 10)
 	{
 		_putchar(' ');
 		_putchar('0' + n);
@@ -33,14 +37,17 @@ void times_table(void)
 		{
 			print_number(i * j);
 
-			if (j != 9)
+			if (j == 9)
+				_putchar('\n');
+			else
 			{
 				_putchar(',');
 				_putchar(' ');
 			}
-			else
+
+			if (i == 0 && j != 9)
 			{
-				_putchar('\n');
+				_putchar(' ');
 			}
 		}
 	}
