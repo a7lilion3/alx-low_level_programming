@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	long long int p, q, r;
+	long int p, q, r;
 	int i;
 
 	p = 1;
@@ -14,9 +14,9 @@ int main(void)
 	for (i = 0; i < 50; i++)
 	{
 		if (i != 49)
-			printf("%lld, ", p);
+			printf("%ld, ", p);
 		else
-			printf("%lld\n", p);
+			printf("%ld\n", p);
 		r = p + q;
 		p = q;
 		q = r;
