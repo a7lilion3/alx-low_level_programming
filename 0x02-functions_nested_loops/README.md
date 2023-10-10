@@ -12,3 +12,8 @@
 09. Learn your times table<br>
 10. a + b<br>
 11. 98 Battery Street, the OG<br>
+
+<h2>Advanced</h2>
+
+12. The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will,
+balances itself<br>
