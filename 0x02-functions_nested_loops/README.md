@@ -7,3 +7,4 @@
 04. isalpha<br>
 05. Sign<br>
 06. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you<br>
+07. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important<br>
