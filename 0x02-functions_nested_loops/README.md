@@ -10,3 +10,4 @@
 07. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important<br>
 08. I'm federal agent Jack Bauer, and today is the longest day of my life<br>
 09. Learn your times table<br>
+10. a + b<br>
