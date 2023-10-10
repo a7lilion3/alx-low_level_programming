@@ -17,7 +17,8 @@ int main(void)
 		r = p + q;
 		if (p > 4000000)
 			break;
-		sum += p;
+		if (p % 2 == 0)
+			sum += p;
 		p = q;
 		q = r;
 	}
