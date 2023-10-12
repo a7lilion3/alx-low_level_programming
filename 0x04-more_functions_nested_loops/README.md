@@ -3,3 +3,4 @@
 00. isupper<br>
 01. isdigit<br>
 02. Collaboration is multiplication<br>
+03. The numbers speak for themselves<br>
