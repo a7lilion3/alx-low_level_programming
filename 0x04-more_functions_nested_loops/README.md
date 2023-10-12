@@ -10,3 +10,4 @@
 07. I feel like I am diagonally parked in a parallel universe<br>
 08. You are so much sunshine in every square inch<br>
 09. Fizz-Buzz<br>
+10. Triangles<br>
