@@ -18,7 +18,6 @@ int main(void)
 	{
 		if (isprime(i) && number % i == 0)
 		{
-			printf("%d\n", i);
 			number /= i;
 			if (i > max_prime)
 				max_prime = i;
@@ -29,6 +28,8 @@ int main(void)
 			i++;
 		}
 	}
+
+	printf("%d\n", max_prime);
 
 	return (0);
 }
