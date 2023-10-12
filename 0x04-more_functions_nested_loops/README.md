@@ -2,3 +2,4 @@
 
 00. isupper<br>
 01. isdigit<br>
+02. Collaboration is multiplication<br>
