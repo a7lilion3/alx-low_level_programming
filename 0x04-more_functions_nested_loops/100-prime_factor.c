@@ -13,42 +13,26 @@ int main(void)
 	int i, max_prime;
 
 	number = 612852475143;
-	i =  max_prime = 2;
-	while (number != 1)
+	i = max_prime = -1;
+	while (number % 2 == 0)
 	{
-		if (isprime(i) && number % i == 0)
+		max_prime = 2;
+		number >>= 1;
+	}
+
+	for (i = 3; i <= sqrt(number); i = i + 2)
+	{
+		while (number % i == 0)
 		{
+			max_prime = i;
 			number /= i;
-			if (i > max_prime)
-				max_prime = i;
-			i = 2;
-		}
-		else
-		{
-			i++;
 		}
 	}
+
+	if (number > 2)
+		max_prime = number;
 
 	printf("%d\n", max_prime);
 
 	return (0);
-}
-
-/**
- * isprime - to check if n is prime
- * @n: int
- * Return: 1 if it's a prime number, 0 otherwise
- */
-int isprime(int n)
-{
-	int tn, i;
-
-	tn = sqrt(n);
-	for (i = 2; i <= tn; i++)
-	{
-		if (n % i == 0)
-			return (0);
-	}
-
-	return (1);
 }
