@@ -23,7 +23,7 @@ int check_null(int n)
  */
 int check_negative(int n)
 {
-	if (n < 0)
+	if (n <= 0)
 	{
 		_putchar('-');
 	}
