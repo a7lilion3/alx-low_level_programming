@@ -1,36 +1,6 @@
 #include "main.h"
 
 /**
- * check_null - check if it's zero
- * @n: int
- * Return: @n
- */
-int check_null(int n)
-{
-	if (n == 0)
-	{
-		_putchar('0');
-	}
-
-	return (n);
-}
-
-/**
- * check_negative - check if the number negative
- * @n: int
- * Return: @n
- */
-int check_negative(int n)
-{
-	if (n <= 0)
-	{
-		_putchar('-');
-	}
-
-	return (n);
-}
-
-/**
  * print_number - prints @n
  * @n: int
  * Return: void
@@ -39,11 +9,12 @@ void print_number(int n)
 {
 	int tn, i;
 
-	if (!check_null(n))
-		return;
 
-	if (check_negative(n) < 0)
+	if (n < 0)
+	{
+		_putchar('-');
 		n = -n;
+	}
 
 	tn = n;
 	i = 1;
