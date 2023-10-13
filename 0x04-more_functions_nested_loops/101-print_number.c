@@ -54,24 +54,10 @@ void print_number(int n)
 	}
 
 	tn = n;
-	while (tn != 0)
+	while (i != 0)
 	{
-		if (i != 0)
-			_putchar('0' + tn / i);
-		else
-			break;
+		_putchar('0' + tn / i);
 		tn %= i;
-		if (tn == 0 && i != 0)
-		{
-			i /= 10;
-			while (i != 0)
-			{
-				i /= 10;
-				_putchar('0');
-			}
-		}
-		else
-			if (i != 0)
-				i /= 10;
+		i /= 10;
 	}
 }
