@@ -7,3 +7,4 @@
 04. I can only go one way. I've not got a reverse gear<br>
 05. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes<br>
 06. Half the lies they tell about me aren't true<br>
+07. Winning is only half of it. Having fun is the other half<br>
