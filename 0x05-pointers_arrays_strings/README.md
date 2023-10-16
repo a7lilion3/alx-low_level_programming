@@ -9,3 +9,4 @@
 06. Half the lies they tell about me aren't true<br>
 07. Winning is only half of it. Having fun is the other half<br>
 08. Arrays are not pointers<br>
+09. strcpy<br>
