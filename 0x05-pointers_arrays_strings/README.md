@@ -8,3 +8,4 @@
 05. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes<br>
 06. Half the lies they tell about me aren't true<br>
 07. Winning is only half of it. Having fun is the other half<br>
+08. Arrays are not pointers<br>
