@@ -13,8 +13,9 @@ int to_digit(char c);
 int _atoi(char *s)
 {
 	int i, digit, len;
-	int nstart, order;
-	unsigned int result;
+	int nstart;
+	unsigned int order;
+	int result;
 	int nminus;
 
 	len = _strlen(s);
