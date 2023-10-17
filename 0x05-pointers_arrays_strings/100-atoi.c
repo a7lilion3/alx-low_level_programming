@@ -55,7 +55,7 @@ int _atoi(char *s)
 
 	if (nminus % 2 == 0)
 		return (result);
-	return (-result);
+	return ((unsigned) -result);
 }
 
 /**
