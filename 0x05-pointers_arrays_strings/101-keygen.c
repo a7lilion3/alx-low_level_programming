@@ -16,7 +16,6 @@ int main(void)
 	char key[255];
 
 	c = 0;
-	n = 0;
 
 	srand((unsigned) time(&t));
 
