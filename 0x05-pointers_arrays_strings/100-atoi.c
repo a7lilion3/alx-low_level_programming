@@ -14,7 +14,7 @@ int _atoi(char *s)
 {
 	int i, digit, len;
 	int nstart, order;
-	int result;
+	unsigned int result;
 	int nminus;
 
 	len = _strlen(s);
