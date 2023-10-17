@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	int c, n;
+	int c;
 	time_t t;
 	int i;
 
