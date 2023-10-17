@@ -12,6 +12,7 @@ int main(void)
 	int c;
 	time_t t;
 	int i;
+	int r;
 
 	char key[255];
 
@@ -23,12 +24,12 @@ int main(void)
 		key[i] = 0;
 
 	i = 0;
-	while (1)
+	c = 66;
+	for (i = 0; i < 42; i++)
 	{
-		c = '~';
-		for (i = 0; i < 22; i++)
-			key[i] = c;
-		break;
+		r = (rand() % 5) + 1;
+		key[i] = c + r;
+		key[++i] = c - r;
 	}
 
 	printf("%s\n", key);
