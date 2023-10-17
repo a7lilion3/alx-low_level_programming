@@ -50,7 +50,6 @@ int _atoi(char *s)
 		if (s[i] == '-')
 			nminus++;
 	}
-	printf("nminus: %d\n", nminus);
 
 	if (nminus % 2 == 0)
 		return (result);
