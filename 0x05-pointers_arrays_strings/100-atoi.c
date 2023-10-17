@@ -15,7 +15,7 @@ int _atoi(char *s)
 	int i, digit, len;
 	int nstart;
 	unsigned int order;
-	int result;
+	unsigned int result;
 	int nminus;
 
 	len = _strlen(s);
@@ -55,7 +55,7 @@ int _atoi(char *s)
 
 	if (nminus % 2 == 0)
 		return (result);
-	return ((unsigned) -result);
+	return (-result);
 }
 
 /**
