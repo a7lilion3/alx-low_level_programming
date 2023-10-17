@@ -14,12 +14,13 @@ int _atoi(char *s)
 {
 	int i, digit, len;
 	int nstart, order;
-	int result;
+	long int result;
 	int nminus;
 
 	len = _strlen(s);
 	nstart = 0;
 	nminus = 0;
+	result = 0;
 	for (i = len - 1; i >= 0; i--)
 	{
 		if (is_digit(s[i]))
