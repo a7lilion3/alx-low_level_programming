@@ -12,3 +12,4 @@
 09. strcpy<br>
 <h2>Advanced</h2>
 10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers<br>
+11. Don't hate the hacker, hate the code<br>
