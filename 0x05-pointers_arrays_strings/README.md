@@ -10,3 +10,5 @@
 07. Winning is only half of it. Having fun is the other half<br>
 08. Arrays are not pointers<br>
 09. strcpy<br>
+<h2>Advanced</h2>
+10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers<br>
