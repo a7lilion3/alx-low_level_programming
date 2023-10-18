@@ -5,3 +5,4 @@
 02. strncpy<br>
 03. strcmp<br>
 04. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy<br>
+05. Always look up<br>
