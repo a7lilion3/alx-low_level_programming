@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * is_alpha - check if c is alpha.
+ * is_alnum - check if c is alpha.
  * @c: char
  * Return: int
  */
-int is_alpha(char c)
+int is_alnum(char c)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9'));
 }
 
 /**
@@ -51,7 +51,7 @@ char *cap_string(char *s)
 	for (i = 0; ts[i] != '\0'; i++)
 	{
 		c = ts[i];
-		if (is_alpha(c) && in_word)
+		if (is_alnum(c) && in_word)
 		{
 			ts[i] = to_upper(c);
 			in_word = 0;
