@@ -2,3 +2,4 @@
 
 00. strcat<br>
 01. strncat<br>
+02. strncpy<br>
