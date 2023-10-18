@@ -7,3 +7,4 @@
 04. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy<br>
 05. Always look up<br>
 06. Expect the best. Prepare for the worst. Capitalize on what comes<br>
+07. Mozart composed his music not for the elite, but for everybody<br>
