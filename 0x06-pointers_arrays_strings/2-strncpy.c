@@ -18,7 +18,12 @@ char *_strncpy(char *dest, char *src, int n)
 		t_dest++;
 		src++;
 	}
-	t_dest = '\0';
+
+	while (*t_dest++)
+		;
+
+	while (*t_dest++)
+		*t_dest = '\0';
 
 	return (dest);
 }
