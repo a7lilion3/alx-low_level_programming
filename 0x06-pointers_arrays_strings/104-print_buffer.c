@@ -19,18 +19,21 @@ void print_buffer(char *b, int size)
 		addr = i;
 		printf("%08x: ", addr);
 
-		for (j = 0; j < 0xa; j += 2 )
+		for (j = 0; j < 0xa; j++)
 		{
 			cb = b + i + j;
 
 			/* once i + j exceeds size will print just spaces */
 			if (i + j < size)
-				printf("%02x%02x ", *(cb), *(cb + 1));
+				printf("%02x", *(cb));
 			else
 			{
-				/* 4 spaces for 2 bytes*/
-				printf("     ");
+				/* 2 spaces for 2 bytes*/
+				printf("  ");
 			}
+
+			if ((j + 1) % 2 == 0)
+				printf(" ");
 		}
 
 		for (j = 0; j < 0xa && i + j < size; j++)
