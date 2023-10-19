@@ -11,3 +11,4 @@
 <h2>Advanced</h2>
 08. rot13<br>
 09. Numbers have life; they're not just symbols on paper<br>
+10. A dream doesn't become reality through magic; it takes sweat, determination and hard work<br>
