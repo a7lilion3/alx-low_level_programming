@@ -43,7 +43,7 @@ void print_buffer(char *b, int size)
 		for (j = 0; j < 0xa && i + j < size; j++)
 		{
 			cb = b + i + j;
-			if (*cb >= 0x0 && *cb <= 0xa)
+			if (!isprint(*cb))
 				printf(".");
 			else
 				printf("%c", *cb);
