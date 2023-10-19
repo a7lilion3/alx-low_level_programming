@@ -14,14 +14,14 @@ void print_buffer(char *b, int size)
 	unsigned int addr;
 	int i, j;
 
+	if (size <= 0)
+	{
+		printf("\n");
+		return;
+	}
+
 	for (i = 0; i < size; i += 0xa)
 	{
-		if (size <= 0)
-		{
-			printf("\n");
-			break;
-		}
-
 		addr = i;
 		printf("%08x: ", addr);
 
