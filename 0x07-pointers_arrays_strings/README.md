@@ -8,3 +8,7 @@
 05. strstr<br>
 06. Chess is mental torture<br>
 07. The line of life is a ragged diagonal between duty and desire<br>
+
+<h2>Advanced</h2>
+
+08. Double pointer, double fun<br>
