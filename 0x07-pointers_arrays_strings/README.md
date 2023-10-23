@@ -5,3 +5,4 @@
 02. strchr<br>
 03. strspn<br>
 04. strpbrk<br>
+05. strstr<br>
