@@ -3,3 +3,4 @@
 00. memset<br>
 01. memcpy<br>
 02. strchr<br>
+03. strspn<br>
