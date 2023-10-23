@@ -12,3 +12,4 @@
 <h2>Advanced</h2>
 
 08. Double pointer, double fun<br>
+09. My primary goal of hacking was the intellectual curiosity, the seduction of advencture<br>
