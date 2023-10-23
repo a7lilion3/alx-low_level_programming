@@ -6,3 +6,4 @@
 03. strspn<br>
 04. strpbrk<br>
 05. strstr<br>
+06. Chess is mental torture<br>
