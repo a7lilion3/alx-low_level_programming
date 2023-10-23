@@ -2,9 +2,10 @@
 
 /**
  * _memset - it fills memory with a const byte
- * @s - char *
- * @b - char
- * @n - unsigned it
+ * @s: char *
+ * @b: char
+ * @n: unsigned it
+ * Return: char *
  */
 char *_memset(char *s, char b, unsigned int n)
 {
