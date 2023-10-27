@@ -20,6 +20,12 @@ int main(int argc, char *argv[])
 	result = 0;
 	n = atoi(argv[1]);
 
+	if (n < 0)
+	{
+		printf("%d\n", 0);
+		return (0);
+	}
+
 	while (n)
 	{
 		if (n >= 25)
