@@ -5,3 +5,7 @@
 02. The best argument against democracy is a five-minute conversation with the average voter<br>
 03. Neither irony nor sarcasm is argument<br>
 04. To infinity and beyond<br>
+
+<h2>Advanced</h2>
+
+05. Minimal Number of Coins for Change<br>
