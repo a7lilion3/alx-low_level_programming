@@ -11,15 +11,19 @@ char *_strdup(char *str)
 	int i;
 	char *s;
 
+	/* error check */
+	if (str == NULL)
+		return (NULL);
+
 	/* calculate length of string */
 	for (i = 0; str[i] != '\0'; ++i)
 		;
 
 	/* allocate memory */
-	s = malloc(i);
+	s = malloc(i + 1);
 
 	/* error check */
-	if (str == NULL || s == NULL)
+	if (s == NULL)
 		return (NULL);
 
 	/* copy string to allocated memory */
