@@ -2,3 +2,4 @@
 
 00. Float like a butterfly, sting like a bee<br>
 01. The woman who has no imagination has no wings<br>
+02. He who is not courageous enough to take risks will accomplish nothing in life<br>
