@@ -9,3 +9,4 @@
 <h2>Advanced</h2>
 
 05. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe<br>
+06. I will show you how great I am<br>
