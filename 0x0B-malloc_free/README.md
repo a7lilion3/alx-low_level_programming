@@ -5,3 +5,7 @@
 02. He who is not courageous enough to take risks will accomplish nothing in life<br>
 03. If you even dream of beating me you'd better wake up and apologize<br>
 04. It's not bragging if you can back it up<br>
+
+<h2>Advanced</h2>
+
+05. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe<br>
