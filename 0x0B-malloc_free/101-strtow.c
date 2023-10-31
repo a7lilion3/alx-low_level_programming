@@ -53,9 +53,9 @@ char **strtow(char *str)
 			j++;
 		for (k = 0; str[k] != ' ' && str[k] != '\0'; k++)
 			;
-		if (str[k] != '\0')
+		if (str[k] == '\0')
 			k++;
-		r[i] = malloc((k) * sizeof(char));
+		r[i] = malloc(k * sizeof(char));
 		if (r[i] == NULL)
 			return (free_mem(r, i));
 		k = 0;
