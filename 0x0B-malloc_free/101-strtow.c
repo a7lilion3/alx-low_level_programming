@@ -53,11 +53,11 @@ char **strtow(char *str)
 	{
 		while (str[j] == ' ')
 			j++;
-
-		r[i] = malloc(32);
+		for (k = 0; str[k] != ' ' && str[k] != '\0'; k++)
+			;
+		r[i] = malloc(k);
 		if (r[i] == NULL)
 			return (free_mem(r, i));
-
 		k = 0;
 		while (str[j] != ' ' && (r[i][k++] = str[j++]) != '\0')
 			;
