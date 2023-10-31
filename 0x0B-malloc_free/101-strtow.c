@@ -62,6 +62,6 @@ char **strtow(char *str)
 		r[i][k] = '\0';
 	}
 	r[i] = malloc(5);
-	r[i][0] = '\0';
+	r[i] = NULL;
 	return (r);
 }
