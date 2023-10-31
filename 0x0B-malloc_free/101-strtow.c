@@ -44,7 +44,7 @@ char **strtow(char *str)
 
 	if (wc <= 0)
 		return (NULL);
-	r = malloc((wc + 1) * sizeof(char *));
+	r = (char **)malloc((wc + 1) * sizeof(char *));
 	if (r == NULL)
 		return (NULL);
 	for (i = 0, j = 0; i < wc; i++)
@@ -53,12 +53,13 @@ char **strtow(char *str)
 			j++;
 		for (k = 0; str[k] != ' ' && str[k] != '\0'; k++)
 			;
-		r[i] = malloc((k + 1) * sizeof(char));
+		r[i] = (char *)malloc((k + 1) * sizeof(char));
 		if (r[i] == NULL)
 			return (free_mem(r, i));
 		k = 0;
 		while (str[j] != ' ' && (r[i][k++] = str[j++]) != '\0')
 			;
+		r[i][k] = '\0';
 	}
 	r[i] = NULL;
 	return (r);
