@@ -62,6 +62,6 @@ char **strtow(char *str)
 		while (str[j] != ' ' && (r[i][k++] = str[j++]) != '\0')
 			;
 	}
-
+	r[i] = NULL;
 	return (r);
 }
