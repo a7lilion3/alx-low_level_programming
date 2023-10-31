@@ -150,3 +150,99 @@
 0124. print remaining days<br>
 
 <h2>12/10/23 C - more functions, more nested loops</h2>
+
+0125. isupper<br>
+0126. isdigit<br>
+0127. mul<br>
+0128. print numbers<br>
+0129. print most numbers<br>
+0130. more numbers<br>
+0131. print line<br>
+0132. print diagonal<br>
+0133. print square<br>
+0134. fizz buzz<br>
+0135. print triangle<br>
+0136. prime factor<br>
+0137. print number<br>
+
+<h2>16/10/23 C - pointers, arrays and strings</h2>
+
+0138. reset to 98<br>
+0139. swap<br>
+0140. strlen<br>
+0141. puts<br>
+0142. print rev<br>
+0143. rev string<br>
+0144. puts2<br>
+0145. puts half<br>
+0146. print array<br>
+0147. strcpy<br>
+0148. atoi<br>
+0149. keygen<br>
+
+<h2>18/10/23 C - more pointers, arrays and strings</h2>
+
+0150. strcat<br>
+0151. strncat<br>
+0152. strncpy<br>
+0153. strcmp<br>
+0154. rev array<br>
+0155. string toupper<br>
+0156. cap string<br>
+0157. leet<br>
+0158. rot13<br>
+0159. print number<br>
+0160. magic<br>
+0161. _infinite add_<br>
+0162. print buffer<br>
+
+<h2>23/10/23 C - even more pointers, arrays and strings</h2>
+
+0163. memset<br>
+0164. memcpy<br>
+0165. strchr<br>
+0166. strspn<br>
+0167. strpbrk<br>
+0168. strstr<br>
+0169. print chessboard<br>
+0170. print diagsums<br>
+0171. set string<br>
+0172. crackme password<br>
+
+<h2>25/10/23 C - recursion</h2>
+
+0173. puts recursion<br>
+0174. print rev recursion<br>
+0175. strlen recursion<br>
+0176. factorial<br>
+0177. pow recursion<br>
+0178. sqrt recursion<br>
+0179. is prime number<br>
+0180. is palindrome<br>
+0181. _wildcmp_<br>
+
+<h2>27/10/23 C - static libraries</h2>
+
+0182. libmy<br>
+0183. create static lib<br>
+
+<h2>27/10/23 C - argc, argv</h2>
+
+0184. what's my name<br>
+0185. args 1<br>
+0186. args 2<br>
+0187. mul<br>
+0188. add<br>
+0189. change<br>
+
+<h2>30/10/23 C - malloc, free</h2>
+
+0190. create array<br>
+0191. strdup<br>
+0192. str concat<br>
+0193. alloc grid<br>
+0194. free grid<br>
+0195. argstostr<br>
+0196. strtow<br>
+
+<h2></h2>
