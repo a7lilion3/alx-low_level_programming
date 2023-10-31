@@ -27,6 +27,9 @@ char **strtow(char *str)
 	int i, j, k, wc, first_letter;
 	char **r;
 
+	if (str == NULL || str[0] == '\0')
+		return (NULL);
+
 	wc = first_letter = 0;
 	for (i = 0; str[i] != '\0'; i++)
 	{
@@ -38,6 +41,9 @@ char **strtow(char *str)
 		else if (str[i] == ' ')
 			first_letter = 0;
 	}
+
+	if (wc <= 0)
+		return (NULL);
 
 	r = malloc(wc * sizeof(char *) + 1);
 	if (r == NULL)
