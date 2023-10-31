@@ -44,18 +44,18 @@ char **strtow(char *str)
 
 	if (wc <= 0)
 		return (NULL);
-
 	r = malloc((wc + 1) * sizeof(char *));
 	if (r == NULL)
 		return (NULL);
-
 	for (i = 0, j = 0; i < wc; i++)
 	{
 		while (str[j] == ' ')
 			j++;
 		for (k = 0; str[k] != ' ' && str[k] != '\0'; k++)
 			;
-		r[i] = malloc(k + 1);
+		if (str[k] != '\0')
+			k++;
+		r[i] = malloc((k) * sizeof(char));
 		if (r[i] == NULL)
 			return (free_mem(r, i));
 		k = 0;
