@@ -20,12 +20,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (i = 0; s1[i]; ++i)
 		;
-	--i;	/* Removing '\0' */
 
 	for (j = 0; j < n && s2[j]; ++i, ++j)
 		;
 
-	p = malloc(i + 1);
+	p = malloc(i);
 	if (p == NULL)
 		return (NULL);
 
