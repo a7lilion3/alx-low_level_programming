@@ -4,3 +4,7 @@
 01. string&lowbar;nconcat<br>
 02. &lowbar;calloc<br>
 03. array&lowbar;range<br>
+
+<h2>Advanced</h2>
+
+04. &lowbar;realloc<br>
