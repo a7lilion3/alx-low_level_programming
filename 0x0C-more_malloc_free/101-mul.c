@@ -38,10 +38,10 @@ int main(int ac, char *av[])
  */
 char *multiply(char *s1, char *s2)
 {
-	int n1, n2, nmax;
-	int i, j, k;
+	int n1, n2, maxl, itemp;
+	int i, j, k, movedby;
 	char digit;
-	char *res;
+	char *res, *ptemp;
 	char *mcarry, *acarry;
 
 	n1 = _strlen(s1);
@@ -55,22 +55,39 @@ char *multiply(char *s1, char *s2)
 	*acarry = '0';
 
 	/* get the right alloc */
-	nmax = (n1 > n2) ? n1 : n2;
-	++nmax;		/* + 1 for last carry if there is one */
-	res = malloc(nmax);
+	maxl = n1 + n2;
+	res = malloc(maxl);
 
-	set_mem(res, '0', nmax);	/* initialize memory with zeros */
+	set_mem(res, '0', maxl);	/* initialize memory with zeros */
+
+	if (n1 > n2)
+	{
+		itemp = n2;
+		n2 = n1;
+		n1 = itemp;
+
+		ptemp = s2;
+		s2 = s1;
+		s1 = ptemp;
+	}
+	else
+	{
+		(void)itemp;
+		(void)ptemp;
+	}
 
 	/* multiplication calculation */
+	movedby = 0;
 	for (i = n1 - 1; i >= 0; --i)
 	{
-		for (j = n2 - 1, k = nmax - 1; j >= 0; --j, --k)
+		for (j = n2 - 1, k = maxl - movedby - 1; j >= 0; --j, --k)
 		{
 			digit = multiply_digit(s1[i], s2[j], mcarry);
 			res[k] = add_digit(res[k], digit, acarry);
 		}
 		digit = add_digit(*mcarry, res[k], NULL);
 		res[k] = add_digit(digit, res[k], NULL);
+		++movedby;
 	}
 
 	free(mcarry);
@@ -123,7 +140,7 @@ char multiply_digit(char c1, char c2, char *carry)
 
 	if (carry != NULL)
 		*carry = (res / 10) + '0';
-	
+
 	return ((res % 10) + '0');
 }
 
