@@ -8,3 +8,4 @@
 <h2>Advanced</h2>
 
 04. &lowbar;realloc<br>
+05. We must accept finite disappointment, but never lose infinite hope<br>
