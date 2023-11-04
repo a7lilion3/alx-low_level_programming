@@ -1,3 +1,4 @@
-#ifndef SUM
+#ifndef HEADER
+#define HEADER
 #define SUM(X, Y) ((X) + (Y))
 #endif
