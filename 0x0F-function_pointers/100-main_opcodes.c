@@ -10,6 +10,7 @@ int main(int ac, char **av)
 {
 	int i, n;
 	unsigned char *pmain;
+
 	if (ac != 2)
 	{
 		printf("Error\n");
@@ -18,7 +19,6 @@ int main(int ac, char **av)
 	n = atoi(av[1]);
 	pmain = (unsigned char *) main;
 
-	if ( n < 0)
 	if (n <= 0)
 	{
 		printf("Error\n");
