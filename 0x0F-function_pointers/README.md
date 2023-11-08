@@ -2,3 +2,4 @@
 
 00. What's my name<br>
 01. If you spend too much time thinking about a thing, you'll never get it done<br>
+02. To hell with circumstances; I create opportunities<br>
