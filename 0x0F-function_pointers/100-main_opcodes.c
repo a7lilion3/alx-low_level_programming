@@ -21,7 +21,7 @@ int main(int ac, char **av)
 	n = atoi(av[1]);
 	pmain = (unsigned char *) main;
 
-	if ( n < 0)
+	if (n <= 0)
 	{
 		printf("Error\n");
 		exit(2);
