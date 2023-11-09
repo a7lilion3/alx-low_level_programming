@@ -3,19 +3,6 @@
 #include <stdlib.h>
 
 /**
- * nullcheck - check null
- * @s: const char * const
- * @i: int *
- * Return: void
- */
-void nullcheck(const char * const s, int *i)
-{
-	if (s == NULL)
-		exit(0);
-	*i = 0;
-}
-
-/**
  * print_all - prints anything
  * @format: const char * const
  * Return: void
@@ -27,9 +14,9 @@ void print_all(const char * const format, ...)
 	char *sarg;
 	va_list ag;
 
-	nullcheck(format, &i);
 	va_start(ag, format);
-	while (format[i])
+	i = 0;
+	while (format != NULL && format[i])
 	{
 		c = format[i];
 		switch (c)
