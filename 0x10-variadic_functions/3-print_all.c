@@ -2,6 +2,28 @@
 #include <stdio.h>
 
 /**
+ * nullcheck - check null
+ * @c: char **
+ * Return: void
+ */
+void nullcheck(int c)
+{
+	if (c != '\0')
+		printf(", ");
+}
+
+/**
+ * stringcheck - check if string is null
+ * @s: char *
+ * Return: void
+ */
+void stringcheck(char *s)
+{
+	if (s == NULL)
+		s = "(nil)";
+}
+
+/**
  * print_all - prints anything
  * @format: const char * const
  * Return: void
@@ -14,8 +36,7 @@ void print_all(const char * const format, ...)
 	va_list ag;
 
 	if (format == NULL)
-		format = "";
-
+		return;
 	va_start(ag, format);
 	i = 0;
 	while (format[i])
@@ -37,8 +58,7 @@ void print_all(const char * const format, ...)
 				break;
 			case 's':
 				sarg = va_arg(ag, char *);
-				if (sarg == NULL)
-					sarg = "(nil)";
+				stringcheck(sarg);
 				printf("%s", sarg);
 				break;
 			default:
@@ -46,8 +66,7 @@ void print_all(const char * const format, ...)
 				continue;
 		}
 		i++;
-		if (format[i] != '\0')
-			printf(", ");
+		nullcheck(format[i]);
 	}
 	va_end(ag);
 	printf("\n");
