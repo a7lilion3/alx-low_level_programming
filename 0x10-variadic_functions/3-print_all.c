@@ -13,6 +13,9 @@ void print_all(const char * const format, ...)
 	char *sarg;
 	va_list ag;
 
+	if (format == NULL)
+		format = "";
+
 	va_start(ag, format);
 	i = 0;
 	while (format[i])
