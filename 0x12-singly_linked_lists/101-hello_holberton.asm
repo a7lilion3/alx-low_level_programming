@@ -1,5 +1,5 @@
 		global	main
-		exterm	printf
+		extern	printf
 
 		section	.text
 main:
