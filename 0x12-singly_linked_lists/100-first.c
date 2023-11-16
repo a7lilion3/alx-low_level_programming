@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _start - entry point
+ * premain - entry point
  *
  * Return: void
  */
