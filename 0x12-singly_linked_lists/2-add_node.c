@@ -5,7 +5,7 @@
  * add_node - adds a new node at the beginning of a list
  * @head: list_t **
  * @str: const char *
- * 
+ *
  * Return: list_t *
  */
 list_t *add_node(list_t **head, const char *str)
@@ -18,6 +18,10 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 
 	node->str = strdup(str);
+
+	if (node->str == NULL)
+		return (NULL);
+
 	s = node->str;
 	for (n = 0; *s; ++n)
 		++s;
