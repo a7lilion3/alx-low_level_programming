@@ -4,3 +4,4 @@
 01. List length<br>
 02. Add node<br>
 03. Add node at the end<br>
+04. Free list<br>
