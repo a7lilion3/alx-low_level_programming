@@ -9,3 +9,4 @@
 06. Pop<br>
 07. Get node at index<br>
 08. Sum list<br>
+09. Insert<br>
