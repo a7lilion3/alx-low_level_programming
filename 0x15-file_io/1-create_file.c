@@ -21,7 +21,7 @@ int create_file(const char *filename, char *text_content)
 	if (fd == -1)
 		return (-1);
 
-	if(chmod(filename, S_IRUSR | S_IWUSR) == -1)
+	if (chmod(filename, S_IRUSR | S_IWUSR) == -1)
 		return (-1);
 
 	if (text_content == NULL)
@@ -30,7 +30,7 @@ int create_file(const char *filename, char *text_content)
 	for (n = 0; text_content[n]; ++n)
 		;
 
-	if (write(fd, text_content, n) > 0)
+	if (write(fd, text_content, n) >= 0)
 		return (1);
 	else
 		return (-1);
