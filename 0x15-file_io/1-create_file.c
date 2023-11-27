@@ -22,13 +22,22 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 
 	if (text_content == NULL)
+	{
+		close(fd);
 		return (1);
+	}
 
 	for (n = 0; text_content[n]; ++n)
 		;
 
 	if (write(fd, text_content, n) >= 0)
+	{
+		close(fd);
 		return (1);
+	}
 	else
+	{
+		close(fd);
 		return (-1);
+	}
 }
